@@ -1,3 +1,35 @@
-h1 {
-  color: salmon;
+body {
+  background-color: #D8D8D8;
+  font-family: Montserrat;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, p{
+  text-align: center;
+}
+img {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.captions {
+  position: absolute;
+  margin-top: -110px;
+  color: white;
+  text-align: center;
+  width: 200px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
 }
